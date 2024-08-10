@@ -5,7 +5,7 @@
 This project contains Playwright tests for automating the checkout and payment process on an e-commerce platform (JUMIA). 
 The tests are designed to validate the end-to-end functionality of the checkout process and ensure a smooth payment experience.
 
-THE OTP IS FETCHED DIRECTLY FROM YOUR EMAIL USING THE emailService.js SCRIPT.
+THE OTP IS FETCHED DIRECTLY FROM THE EMAIL USING THE emailService.js SCRIPT.
 
 ## Project Structure
 
