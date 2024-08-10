@@ -51,10 +51,14 @@ Create a `.env` file in the root directory and add the following variables:
 ```env
 PHONENUMBER=your_phone_number
 PASSWORD=your_password
-OTP_DIGIT_1=your_otp_digit_1
-OTP_DIGIT_2=your_otp_digit_2
-OTP_DIGIT_3=your_otp_digit_3
-OTP_DIGIT_4=your_otp_digit_4
+
+OTP_EMAIL=your_email_address
+OTP_EMAIL_PASSWORD=your_email_password
+
+CARD_NUMBER=
+CARD_EXP_MONTH=
+CARD_EXP_YEAR=
+CARD_CVC=
 ```
 
 ### Prepare Test Data
@@ -106,3 +110,4 @@ The test logs are saved in `test-log.txt` in the root directory. Logs include na
 - **Browser Not Found**: If you encounter an error about missing browser executables, ensure you have run `npx playwright install` to download the required browsers.
 - **Environment Variables**: Verify that all required environment variables are correctly set in your `.env` file.
 - **File Paths**: Check that `testData.json` and other required files are present in the correct locations.
+- **Fetching OTP: Ensure the email service script (utils/emailService.js) is correctly implemented and that your email credentials are set up properly.
