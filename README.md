@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project contains Playwright tests for automating the checkout and payment process on an e-commerce platform. The tests are designed to validate the end-to-end functionality of the checkout process and ensure a smooth payment experience.
+This project contains Playwright tests for automating the checkout and payment process on an e-commerce platform (JUMIA). The tests are designed to validate the end-to-end functionality of the checkout process and ensure a smooth payment experience.
+
+GITHUB ACTION IS USED FOR CI/CD
 
 ## Project Structure
 
@@ -26,8 +28,8 @@ Before running the tests, ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://your-repository-url.git
-cd your-repository-folder
+git clone [https://your-repository-url.git](https://github.com/asoorji/jumia-automation.git)
+cd [your-repository-folder](https://github.com/asoorji/jumia-automation.git)
 ```
 
 ### Install Dependencies
@@ -51,10 +53,10 @@ Create a `.env` file in the root directory and add the following variables:
 ```env
 PHONENUMBER=your_phone_number
 PASSWORD=your_password
-OTP_DIGIT_1=your_otp_digit_1
+<!-- OTP_DIGIT_1=your_otp_digit_1
 OTP_DIGIT_2=your_otp_digit_2
 OTP_DIGIT_3=your_otp_digit_3
-OTP_DIGIT_4=your_otp_digit_4
+OTP_DIGIT_4=your_otp_digit_4 -->
 ```
 
 ### Prepare Test Data

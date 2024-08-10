@@ -313,3 +313,129 @@
 2024-08-10T15:35:09.762Z - Entered phone number: 08129976178
 2024-08-10T15:35:11.823Z - Entered password and clicked Login
 2024-08-10T15:35:12.102Z - Entered OTP
+2024-08-10T16:38:41.549Z - Navigated to Jumia homepage
+2024-08-10T16:38:41.867Z - Navigated to Jumia homepage
+2024-08-10T16:38:43.861Z - Search results found
+2024-08-10T16:38:44.418Z - Selected first search result for: iphone 15
+2024-08-10T16:38:44.803Z - Clicked Add to Cart button
+2024-08-10T16:38:45.164Z - Product added successfully to the cart
+2024-08-10T16:38:45.690Z - Navigated to Cart
+2024-08-10T16:38:47.845Z - Clicked Checkout button
+2024-08-10T16:38:47.846Z - Starting Payment Process
+2024-08-10T16:38:52.601Z - Entered phone number: 08129976178
+2024-08-10T16:38:55.035Z - Entered password and clicked Login
+2024-08-10T16:43:18.904Z - Navigated to Jumia homepage
+2024-08-10T16:43:19.096Z - Navigated to Jumia homepage
+2024-08-10T16:43:21.268Z - Search results found
+2024-08-10T16:43:21.726Z - Selected first search result for: iphone 15
+2024-08-10T16:43:21.922Z - Clicked Add to Cart button
+2024-08-10T16:43:47.505Z - Product not added to cart, retrying...
+2024-08-10T16:43:47.510Z - Product not added to cart, retrying...
+2024-08-10T16:44:59.106Z - Navigated to Jumia homepage
+2024-08-10T16:44:59.285Z - Navigated to Jumia homepage
+2024-08-10T16:45:01.131Z - Search results found
+2024-08-10T16:45:01.638Z - Selected first search result for: iphone 15
+2024-08-10T16:45:01.798Z - Clicked Add to Cart button
+2024-08-10T16:45:26.564Z - Product not added to cart, retrying...
+2024-08-10T16:45:26.589Z - Product not added to cart, retrying...
+2024-08-10T16:45:48.333Z - Navigated to Jumia homepage
+2024-08-10T16:45:48.515Z - Navigated to Jumia homepage
+2024-08-10T16:45:50.868Z - Search results found
+2024-08-10T16:45:51.361Z - Selected first search result for: iphone 15
+2024-08-10T16:45:51.651Z - Clicked Add to Cart button
+2024-08-10T16:46:16.852Z - Product not added to cart, retrying...
+2024-08-10T16:46:16.861Z - Product not added to cart, retrying...
+2024-08-10T17:13:02.733Z - Navigated to Jumia homepage
+2024-08-10T17:13:02.979Z - Navigated to Jumia homepage
+2024-08-10T17:13:03.818Z - Navigated to Jumia homepage
+2024-08-10T17:13:03.901Z - Navigated to Jumia homepage
+2024-08-10T17:13:05.053Z - Navigated to Jumia homepage
+2024-08-10T17:13:05.331Z - Search results found
+2024-08-10T17:13:05.617Z - Navigated to Jumia homepage
+2024-08-10T17:13:06.220Z - Selected first search result for: iphone 15
+2024-08-10T17:13:06.238Z - Search results found
+2024-08-10T17:13:06.591Z - Selected first search result for: iphone 15
+2024-08-10T17:13:06.801Z - Clicked Add to Cart button
+2024-08-10T17:13:07.500Z - Clicked Add to Cart button
+2024-08-10T17:13:07.587Z - Product added successfully to the cart
+2024-08-10T17:13:08.202Z - Navigated to Cart
+2024-08-10T17:13:10.007Z - Search results found
+2024-08-10T17:13:10.797Z - Clicked Checkout button
+2024-08-10T17:13:10.798Z - Starting Payment Process
+2024-08-10T17:13:14.694Z - Selected first search result for: iphone 15
+2024-08-10T17:13:16.276Z - Clicked Add to Cart button
+2024-08-10T17:13:16.483Z - Entered phone number: 08129976178
+2024-08-10T17:13:17.826Z - Entered password and clicked Login
+2024-08-10T17:13:18.073Z - Product added successfully to the cart
+2024-08-10T17:13:19.063Z - Navigated to Cart
+2024-08-10T17:13:22.523Z - Clicked Checkout button
+2024-08-10T17:13:22.525Z - Starting Payment Process
+2024-08-10T17:13:29.743Z - Entered phone number: 08129976178
+2024-08-10T17:13:31.221Z - Product not added to cart, retrying...
+2024-08-10T17:13:31.241Z - Product not added to cart, retrying...
+2024-08-10T17:13:31.874Z - Entered password and clicked Login
+2024-08-10T17:13:36.192Z - Navigated to Jumia homepage
+2024-08-10T17:13:37.090Z - Navigated to Jumia homepage
+2024-08-10T17:13:40.888Z - Search results found
+2024-08-10T17:13:41.344Z - Selected first search result for: iphone 15
+2024-08-10T17:13:43.001Z - Navigated to Jumia homepage
+2024-08-10T17:13:43.089Z - Clicked Add to Cart button
+2024-08-10T17:13:43.970Z - Product added successfully to the cart
+2024-08-10T17:13:44.216Z - Navigated to Jumia homepage
+2024-08-10T17:13:44.698Z - Navigated to Cart
+2024-08-10T17:13:46.802Z - Search results found
+2024-08-10T17:13:47.639Z - Navigated to Jumia homepage
+2024-08-10T17:13:47.895Z - Clicked Checkout button
+2024-08-10T17:13:47.897Z - Starting Payment Process
+2024-08-10T17:13:52.507Z - Selected first search result for: iphone 15
+2024-08-10T17:13:59.651Z - Entered phone number: 08129976178
+2024-08-10T17:14:02.510Z - Entered password and clicked Login
+2024-08-10T17:14:04.424Z - Navigated to Jumia homepage
+2024-08-10T17:14:11.088Z - Search results not found, retrying...
+2024-08-10T17:14:11.100Z - Search results not found, retrying...
+2024-08-10T17:14:20.130Z - Navigated to Jumia homepage
+2024-08-10T17:14:20.471Z - Navigated to Jumia homepage
+2024-08-10T17:14:22.766Z - Search results found
+2024-08-10T17:14:23.389Z - Selected first search result for: iphone 15
+2024-08-10T17:14:24.605Z - Clicked Add to Cart button
+2024-08-10T17:14:26.141Z - Product added successfully to the cart
+2024-08-10T17:14:26.417Z - Navigated to Jumia homepage
+2024-08-10T17:14:26.614Z - Navigated to Jumia homepage
+2024-08-10T17:14:26.826Z - Navigated to Cart
+2024-08-10T17:14:29.023Z - Clicked Checkout button
+2024-08-10T17:14:29.025Z - Starting Payment Process
+2024-08-10T17:14:29.639Z - Search results found
+2024-08-10T17:14:31.145Z - Selected first search result for: iphone 15
+2024-08-10T17:14:31.844Z - Clicked Add to Cart button
+2024-08-10T17:14:32.817Z - Product added successfully to the cart
+2024-08-10T17:14:33.378Z - Navigated to Cart
+2024-08-10T17:14:34.411Z - Entered phone number: 08129976178
+2024-08-10T17:14:35.893Z - Clicked Checkout button
+2024-08-10T17:14:35.894Z - Starting Payment Process
+2024-08-10T17:14:36.982Z - Entered password and clicked Login
+2024-08-10T17:14:41.562Z - Navigated to Jumia homepage
+2024-08-10T17:14:42.526Z - Entered phone number: 08129976178
+2024-08-10T17:14:44.299Z - Navigated to Jumia homepage
+2024-08-10T17:14:44.471Z - Entered password and clicked Login
+2024-08-10T17:14:51.887Z - Search results found
+2024-08-10T17:14:53.486Z - Navigated to Jumia homepage
+2024-08-10T17:14:53.692Z - Navigated to Jumia homepage
+2024-08-10T17:14:56.606Z - Search results found
+2024-08-10T17:14:57.355Z - Selected first search result for: iphone 15
+2024-08-10T17:14:57.383Z - Selected first search result for: iphone 15
+2024-08-10T17:14:57.931Z - Clicked Add to Cart button
+2024-08-10T17:14:58.881Z - Product added successfully to the cart
+2024-08-10T17:16:05.878Z - Navigated to Jumia homepage
+2024-08-10T17:16:06.133Z - Navigated to Jumia homepage
+2024-08-10T17:16:07.370Z - Search results found
+2024-08-10T17:16:07.782Z - Selected first search result for: iphone 15
+2024-08-10T17:16:07.957Z - Clicked Add to Cart button
+2024-08-10T17:16:33.524Z - Product not added to cart, retrying...
+2024-08-10T17:16:33.536Z - Product not added to cart, retrying...
+2024-08-10T17:18:06.698Z - Navigated to Jumia homepage
+2024-08-10T17:18:06.867Z - Navigated to Jumia homepage
+2024-08-10T17:18:08.632Z - Search results found
+2024-08-10T17:18:09.112Z - Selected first search result for: iphone 15
+2024-08-10T17:18:09.247Z - Clicked Add to Cart button
+2024-08-10T17:18:31.976Z - Product not added to cart, retrying...
+2024-08-10T17:18:31.994Z - Product not added to cart, retrying...

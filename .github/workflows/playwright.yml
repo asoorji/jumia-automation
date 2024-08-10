@@ -1,27 +1,37 @@
-name: Playwright Tests
+name: ECommerce Tests
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+
+
 jobs:
   test:
-    timeout-minutes: 60
-    runs-on: ubuntu-latest
+runs-on: macos-latest
+
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
       with:
-        node-version: lts/*
+        node-version: '16'
+
     - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+      run: |
+        npm install
+        npx playwright install
+
     - name: Run Playwright tests
+      env:
+        EMAIL_SERVICE_USER: ${{ secrets.EMAIL_SERVICE_USER }}
+        EMAIL_SERVICE_PASSWORD: ${{ secrets.EMAIL_SERVICE_PASSWORD }}
       run: npx playwright test
-    - uses: actions/upload-artifact@v4
-      if: always()
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v3
       with:
-        name: playwright-report
+        name: playwright-results
         path: playwright-report/
-        retention-days: 30

@@ -2,6 +2,8 @@ import { test, expect } from '@playwright/test';
 import * as dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
+const { getOtpFromEmail } = require('../utils/emailService');
+// const { vendor } = require('./utils/vendor');
 
 dotenv.config();
 const dataPath = path.resolve(__dirname, 'testData.json');
@@ -10,6 +12,12 @@ const phoneNumber = process.env.PHONENUMBER;
 const password = process.env.PASSWORD;
 const searchTerms = jsonData.searchTerms;
 const firstSearchTerm = searchTerms[0];
+
+// Card details from environment variables
+const cardNumber = process.env.CARD_NUMBER;
+const cardExpMonth = process.env.CARD_EXP_MONTH;
+const cardExpYear = process.env.CARD_EXP_YEAR;
+const cardCvc = process.env.CARD_CVC;
 
 function logMessage(message) {
   const logFilePath = path.resolve(__dirname, 'test-log.txt');
@@ -98,11 +106,6 @@ test.describe('ECommerce Checkout and Payment Process', () => {
     await test.step('Payment Process', async () => {
       logMessage('Starting Payment Process');
 
-      const otpDigit1 = process.env.OTP_DIGIT_1;
-      const otpDigit2 = process.env.OTP_DIGIT_2;
-      const otpDigit3 = process.env.OTP_DIGIT_3;
-      const otpDigit4 = process.env.OTP_DIGIT_4;
-
       await page.waitForSelector('text="Welcome to Jumia"', { timeout: 15000 });
       
     const identifierValue = page.locator('#input_identifierValue')
@@ -126,11 +129,14 @@ test.describe('ECommerce Checkout and Payment Process', () => {
    await loginButton.click();
    logMessage('Entered password and clicked Login');
 
-await page.getByLabel('digit 1').fill(otpDigit1);
-await page.getByLabel('digit 2').fill(otpDigit2);
-await page.getByLabel('digit 3').fill(otpDigit3);
-await page.getByLabel('digit 4').fill(otpDigit4);
-logMessage('Entered OTP');
+  // Fetch OTP from email
+  const otp = await getOtpFromEmail(); // Fetch OTP from your email
+  const [otpDigit1, otpDigit2, otpDigit3, otpDigit4] = otp.split('');
+  await page.getByLabel('digit 1').fill(otpDigit1);
+  await page.getByLabel('digit 2').fill(otpDigit2);
+  await page.getByLabel('digit 3').fill(otpDigit3);
+  await page.getByLabel('digit 4').fill(otpDigit4);
+  logMessage('Entered OTP');
 
   const skipButton = page.getByRole('button', { name: 'Submit' });
   await skipButton.click();
@@ -146,19 +152,19 @@ logMessage('Entered OTP');
   const payWithCardButton = page.getByText('Pay with Mastercard and Visa');
   await payWithCardButton.click();
 
-  const cardNumber = page.frameLocator('iframe-message iframe').locator('#cc-number');
-  await cardNumber.click();
-  await cardNumber.fill('5467 5670 7623 0945');
+      const cardNumberInput = page.frameLocator('iframe-message iframe').locator('#cc-number');
+      await cardNumberInput.click();
+      await cardNumberInput.fill(cardNumber);
 
-  const cardExpiryMonth = page.frameLocator('iframe-message iframe').locator('select[name="cc-exp-month"]');
-  await cardExpiryMonth.selectOption('7');
+      const cardExpiryMonthSelect = page.frameLocator('iframe-message iframe').locator('select[name="cc-exp-month"]');
+      await cardExpiryMonthSelect.selectOption(cardExpMonth);
 
-  const cardExpiryYear = page.frameLocator('iframe-message iframe').locator('select[name="cc-exp-year"]');
-  await cardExpiryYear.selectOption('2025');
+      const cardExpiryYearSelect = page.frameLocator('iframe-message iframe').locator('select[name="cc-exp-year"]');
+      await cardExpiryYearSelect.selectOption(cardExpYear);
 
-  const cardCvc = page.frameLocator('iframe-message iframe').locator('#cc-csc');
-  await cardCvc.click();
-  await cardCvc.fill('123');
+      const cardCvcInput = page.frameLocator('iframe-message iframe').locator('#cc-csc');
+      await cardCvcInput.click();
+      await cardCvcInput.fill(cardCvc);
 
   const payNowButton = page.getByRole('button', { name: 'PAY NOW: ₦' });
   await payNowButton.click();
