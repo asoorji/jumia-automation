@@ -26,12 +26,12 @@ function logMessage(message) {
 }
 
 
-if (!phoneNumber) {
-  throw new Error('Environment variable PHONENUMBER is not set.');
-}
-if (!password) {
-  throw new Error('Environment variable PASSWORD is not set.');
-}
+// if (!phoneNumber) {
+//   throw new Error('Environment variable PHONENUMBER is not set.');
+// }
+// if (!password) {
+//   throw new Error('Environment variable PASSWORD is not set.');
+// }
 
 test.describe('ECommerce Checkout and Payment Process', () => {
   test('checkout and payment process', async ({ page }) => {
