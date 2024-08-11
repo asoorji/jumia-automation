@@ -483,3 +483,75 @@
 2024-08-11T08:09:53.560Z - Selected first search result for: iphone 15
 2024-08-11T08:09:53.701Z - Clicked Add to Cart button
 2024-08-11T08:09:54.116Z - Navigated to Cart
+2024-08-11T08:17:55.612Z - Navigated to Jumia homepage
+2024-08-11T08:17:55.788Z - Navigated to Jumia homepage
+2024-08-11T08:17:57.819Z - Search results found
+2024-08-11T08:17:58.336Z - Selected first search result for: iphone 15
+2024-08-11T08:17:58.490Z - Clicked Add to Cart button
+2024-08-11T08:18:23.802Z - Product not added to cart, retrying...
+2024-08-11T08:18:23.808Z - Product not added to cart, retrying...
+2024-08-11T08:27:30.303Z - Navigated to Jumia homepage
+2024-08-11T08:27:30.485Z - Navigated to Jumia homepage
+2024-08-11T08:27:32.425Z - Search results found
+2024-08-11T08:27:33.030Z - Selected first search result for: iphone 15
+2024-08-11T08:27:33.174Z - Clicked Add to Cart button
+2024-08-11T08:27:58.580Z - Product not added to cart, retrying...
+2024-08-11T08:27:58.589Z - Product not added to cart, retrying...
+2024-08-11T08:29:14.705Z - Navigated to Jumia homepage
+2024-08-11T08:29:14.857Z - Navigated to Jumia homepage
+2024-08-11T08:29:17.106Z - Search results found
+2024-08-11T08:29:17.811Z - Selected first search result for: iphone 15
+2024-08-11T08:29:17.932Z - Clicked Add to Cart button
+2024-08-11T08:31:33.724Z - Navigated to Jumia homepage
+2024-08-11T08:31:33.902Z - Navigated to Jumia homepage
+2024-08-11T08:31:34.971Z - Navigated to Jumia homepage
+2024-08-11T08:31:35.043Z - Navigated to Jumia homepage
+2024-08-11T08:31:35.549Z - Navigated to Jumia homepage
+2024-08-11T08:31:35.624Z - Navigated to Jumia homepage
+2024-08-11T08:31:36.619Z - Search results found
+2024-08-11T08:31:37.107Z - Selected first search result for: iphone 15
+2024-08-11T08:31:37.118Z - Search results found
+2024-08-11T08:31:37.224Z - Clicked Add to Cart button
+2024-08-11T08:31:37.602Z - Selected first search result for: iphone 15
+2024-08-11T08:31:38.357Z - Search results found
+2024-08-11T08:31:38.416Z - Clicked Add to Cart button
+2024-08-11T08:31:38.963Z - Selected first search result for: iphone 15
+2024-08-11T08:31:39.142Z - Clicked Add to Cart button
+2024-08-11T08:32:05.469Z - Navigated to Jumia homepage
+2024-08-11T08:32:05.666Z - Navigated to Jumia homepage
+2024-08-11T08:32:06.198Z - Navigated to Jumia homepage
+2024-08-11T08:32:06.396Z - Navigated to Jumia homepage
+2024-08-11T08:32:07.643Z - Search results found
+2024-08-11T08:32:08.343Z - Search results found
+2024-08-11T08:32:08.492Z - Selected first search result for: iphone 15
+2024-08-11T08:32:08.903Z - Clicked Add to Cart button
+2024-08-11T08:32:08.927Z - Navigated to Jumia homepage
+2024-08-11T08:32:09.001Z - Selected first search result for: iphone 15
+2024-08-11T08:32:09.153Z - Navigated to Jumia homepage
+2024-08-11T08:32:09.230Z - Clicked Add to Cart button
+2024-08-11T08:32:10.043Z - Product added successfully to the cart
+2024-08-11T08:32:10.725Z - Navigated to Cart
+2024-08-11T08:32:12.002Z - Search results found
+2024-08-11T08:32:12.712Z - Selected first search result for: iphone 15
+2024-08-11T08:32:12.848Z - Clicked Add to Cart button
+2024-08-11T08:32:12.996Z - Clicked Checkout button
+2024-08-11T08:32:37.290Z - Navigated to Jumia homepage
+2024-08-11T08:32:37.354Z - Navigated to Jumia homepage
+2024-08-11T08:32:39.385Z - Search results found
+2024-08-11T08:32:40.005Z - Selected first search result for: iphone 15
+2024-08-11T08:32:40.124Z - Clicked Add to Cart button
+2024-08-11T08:32:41.588Z - Navigated to Jumia homepage
+2024-08-11T08:32:41.656Z - Navigated to Jumia homepage
+2024-08-11T08:32:44.224Z - Search results found
+2024-08-11T08:32:44.833Z - Selected first search result for: iphone 15
+2024-08-11T08:32:44.978Z - Clicked Add to Cart button
+2024-08-11T08:33:08.488Z - Navigated to Jumia homepage
+2024-08-11T08:33:08.554Z - Navigated to Jumia homepage
+2024-08-11T08:33:10.568Z - Search results found
+2024-08-11T08:33:11.051Z - Selected first search result for: iphone 15
+2024-08-11T08:33:11.198Z - Clicked Add to Cart button
+2024-08-11T08:33:13.854Z - Navigated to Jumia homepage
+2024-08-11T08:33:13.934Z - Navigated to Jumia homepage
+2024-08-11T08:33:15.944Z - Search results found
+2024-08-11T08:33:16.525Z - Selected first search result for: iphone 15
+2024-08-11T08:33:16.655Z - Clicked Add to Cart button
